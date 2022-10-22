@@ -54,18 +54,18 @@ M.base_16 = {
 
 vim.opt.bg = "dark"
 
--- M.polish_hl = {
---   TelescopePromptPrefix = { fg = M.base_30.white },
---   TelescopeSelection = { bg = M.base_30.one_bg, fg = M.base_30.white },
---   FloatBorder = { fg = M.base_16.base05 },
---   DiffAdd = { fg = M.base_16.base05 },
---   TbLineThemeToggleBtn = { bg = M.base_30.one_bg3 },
---   WhichKeyDesc = { fg = M.base_30.white },
---   Pmenu = { bg = M.base_30.black2 },
---   St_pos_text = { fg = M.base_30.white },
---   TSVariableBuiltin = { fg = M.base_30.red },
---   TSProperty = { fg = M.base_30.teal },
--- }
+M.polish_hl = {
+  TelescopePromptPrefix = { fg = M.base_30.white },
+  TelescopeSelection = { bg = M.base_30.one_bg, fg = M.base_30.white },
+  FloatBorder = { fg = M.base_16.base05 },
+  DiffAdd = { fg = M.base_16.base05 },
+  TbLineThemeToggleBtn = { bg = M.base_30.one_bg3 },
+  WhichKeyDesc = { fg = M.base_30.white },
+  Pmenu = { bg = M.base_30.black2 },
+  St_pos_text = { fg = M.base_30.white },
+  TSVariableBuiltin = { fg = M.base_30.red },
+  TSProperty = { fg = M.base_30.teal },
+}
 
 M = require("base46").override_theme(M, "catppuccin_frappe")
 
